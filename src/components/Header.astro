@@ -1,0 +1,19 @@
+---
+// src/components/Header.astro
+import { siteInfo } from '../data/siteData.js';
+---
+
+<header class="mb-24 flex flex-col items-center text-center">
+    <!-- Logo Besar Sekolah -->
+    <img src={siteInfo.logo} alt="Logo SMKN 3" class="w-24 md:w-28 h-auto mb-8 drop-shadow-sm" />
+    
+    <!-- Judul Utama -->
+    <h1 class="text-2xl md:text-4xl font-light tracking-[0.18em] text-slate-800 uppercase mb-4">
+        SMKN 3 <span class="font-bold">LINGGABUANA</span>
+    </h1>
+    
+    <!-- Slogan/Motto -->
+    <p class="text-slate-400 font-mono text-[9px] md:text-[10px] uppercase tracking-[0.4em]">
+        Pengkuh Agamana • Luhung Elmuna • Jembar Budayana
+    </p>
+</header>

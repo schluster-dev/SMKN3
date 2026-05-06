@@ -1,0 +1,28 @@
+---
+// src/components/Slider.astro
+---
+
+<section class="relative w-full h-[450px] md:h-[600px] overflow-hidden bg-slate-950 group rounded-2xl shadow-2xl" id="main-slider">
+    <!-- Kontainer Slide -->
+    <div id="slider-wrapper" class="relative h-full w-full">
+        <div id="slider-loader" class="absolute inset-0 z-50 flex items-center justify-center bg-slate-950 text-blue-500 font-mono text-[10px] animate-pulse tracking-widest uppercase">
+            Sinkronisasi Data Arsip...
+        </div>
+    </div>
+
+    <!-- Navigasi -->
+    <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 z-40 p-4 bg-black/20 hover:bg-blue-600 text-white backdrop-blur-md transition-all border border-white/5 opacity-0 group-hover:opacity-100 hidden md:block rounded-full">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+    </button>
+    <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 z-40 p-4 bg-black/20 hover:bg-blue-600 text-white backdrop-blur-md transition-all border border-white/5 opacity-0 group-hover:opacity-100 hidden md:block rounded-full">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+    </button>
+
+    <div class="absolute inset-0 z-20 pointer-events-none bg-gradient-to-r from-slate-950 via-slate-950/40 to-transparent"></div>
+</section>
+
+<style is:global>
+    .slide-active { opacity: 1 !important; z-index: 20 !important; }
+    .img-zoom { transform: scale(1.05); transition: transform 8s linear; }
+    .text-reveal { transform: translateY(0) !important; opacity: 1 !important; }
+</style>

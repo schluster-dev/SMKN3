@@ -1,0 +1,89 @@
+---
+import '../styles/global.css';
+
+/** 
+ * getStaticPaths berfungsi mengambil semua slug halaman dari WordPress 
+ * agar Astro bisa menghasilkan halaman statis secara otomatis.
+ */
+export async function getStaticPaths() {
+  const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      query: `
+        query GetAllPages {
+          pages(first: 50) {
+            nodes {
+              slug
+            }
+          }
+        }
+      `,
+    }),
+  });
+  const { data } = await response.json();
+  return data.pages.nodes.map((page) => ({
+    params: { slug: page.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+// Ambil konten detail halaman berdasarkan slug yang sedang dibuka
+const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    query: `
+      query GetPageBySlug($id: ID!) {
+        page(id: $id, idType: URI) {
+          title
+          content
+        }
+      }
+    `,
+    variables: { id: slug },
+  }),
+});
+
+const { data } = await response.json();
+const page = data?.page;
+---
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{page?.title} | SMKN 3 Linggabuana</title>
+</head>
+<body class="bg-[#f8fafc] p-6 md:p-20">
+    <div class="max-w-4xl mx-auto mt-24 fade-in">
+        <!-- Tombol Kembali yang Estetik -->
+        <a href="/" class="text-[9px] font-black uppercase tracking-[0.4em] text-slate-300 hover:text-slate-800 transition-all mb-16 block">
+            ← Back to Portal
+        </a>
+
+        {page ? (
+            <article>
+                <header class="mb-16">
+                    <h1 class="text-3xl md:text-6xl font-light text-slate-800 uppercase tracking-tighter leading-tight">
+                        {page.title}
+                    </h1>
+                    <div class="h-[1px] w-20 bg-slate-200 mt-8"></div>
+                </header>
+
+                <div class="glass-card p-8 md:p-16 prose prose-slate max-w-none text-slate-600 font-light leading-relaxed italic-excerpt" set:html={page.content} />
+            </article>
+        ) : (
+            <div class="text-center py-20">
+                <p class="text-xs font-mono text-slate-400 uppercase tracking-widest">Digital Asset Not Found</p>
+            </div>
+        )}
+
+        <footer class="mt-40 mb-10 text-center">
+            <p class="text-[9px] text-slate-400 font-mono uppercase tracking-[0.3em]">
+                System Architecture by Ridho Kiswanto
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+---
+// src/components/Footer.astro
+import { siteInfo, socialMedia, linkKedinasan } from '../data/siteData.js';
+---
+
+<footer class="mt-40 relative overflow-hidden border-t border-white/20 bg-slate-50/50 backdrop-blur-sm">
+    <!-- Dekorasi Cahaya Statis -->
+    <div class="absolute -top-40 -left-20 w-[500px] h-[500px] bg-blue-400/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute -bottom-40 -right-20 w-[500px] h-[500px] bg-purple-400/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-6 py-16 relative z-10">
+        
+        <!-- CANVAS PARALLAX: Lebih Timbul & Shadow Lebih Dalam -->
+        <div id="footer-canvas" class="relative group bg-white/50 backdrop-blur-3xl border-t border-l border-white border-b border-r border-white/40 p-10 md:p-20 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] transition-transform duration-200 ease-out overflow-hidden">
+            
+            <!-- Lapisan Cahaya Parallax (Reflective Ice) -->
+            <div id="ice-reflect" class="absolute -inset-full bg-gradient-to-br from-white/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-0"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24 relative z-10 pointer-events-auto">
+                
+                <!-- Kolom 1: Profil & Sosial -->
+                <div class="flex flex-col text-left">
+                    <div class="flex items-center gap-5 mb-10 group/logo">
+                        <div class="p-3 bg-white/80 backdrop-blur-md border border-white shadow-sm rounded-none transition-all group-hover/logo:shadow-blue-500/20">
+                            <img src={siteInfo.logo} class="w-12 h-auto drop-shadow-md" alt="Logo SMKN 3" />
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-black text-[13px] tracking-[0.4em] uppercase text-slate-800">SMKN 3 Linggabuana</span>
+                            <span class="text-[10px] font-mono text-blue-600 uppercase tracking-widest font-bold">Digital Archive Portal</span>
+                        </div>
+                    </div>
+                    <p class="text-[13px] text-slate-600 leading-relaxed uppercase tracking-widest mb-12 text-justify italic font-medium opacity-80 border-l-2 border-blue-500/30 pl-6">
+                        "Pengkuh Agamana, Luhung Elmuna, Jembar Budayana." Mewujudkan kemandirian vokasi yang relevan dengan industri.
+                    </p>
+                    <div class="flex gap-10">
+                        {socialMedia.map(social => (
+                            <a href={social.url} target="_blank" class={`group flex flex-col items-start gap-2 transition-all ${social.color}`}>
+                                <span class="text-[11px] font-black uppercase tracking-[0.3em] text-slate-400 group-hover:inherit">{social.name}</span>
+                                <div class="w-0 h-[1.5px] bg-current group-hover:w-full transition-all duration-500 shadow-[0_0_10px_currentColor]"></div>
+                            </a>
+                        ))}
+                    </div>
+                </div>
+
+                <!-- Kolom 2: Pranata Luar -->
+                <div class="md:pl-12 border-l border-slate-200/60">
+                    <h4 class="text-[11px] font-black uppercase tracking-[0.6em] text-slate-800 mb-12 pl-4 border-l-4 border-blue-600">Pranata Luar</h4>
+                    <ul class="flex flex-col gap-8">
+                        {linkKedinasan.map(link => (
+                            <li>
+                                <a href={link.url} target="_blank" class="text-[11px] font-bold text-slate-500 hover:text-blue-600 transition-all uppercase tracking-[0.3em] flex items-center gap-4 group/item">
+                                    <div class="w-3 h-[1px] bg-slate-300 group-hover/item:w-8 group-hover/item:bg-blue-600 transition-all"></div>
+                                    {link.name}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <!-- Kolom 3: Info & Lokasi -->
+                <div class="md:pl-12 border-l border-slate-200/60 text-left">
+                    <h4 class="text-[11px] font-black uppercase tracking-[0.6em] text-slate-800 mb-12 pl-4 border-l-4 border-blue-600">Info Sekolah</h4>
+                    <div class="flex flex-col gap-12">
+                        <div class="flex flex-col gap-4">
+                            <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest font-bold opacity-60">Alamat Korespondensi</span>
+                            <p class="text-[12px] font-bold text-slate-700 leading-relaxed uppercase tracking-[0.2em]">
+                                Jl. Linggabuana, Purwakarta, Jawa Barat.
+                            </p>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest font-bold opacity-60">Digital Hub</span>
+                            <p class="text-[12px] font-bold text-blue-600 uppercase tracking-[0.2em] underline underline-offset-8 decoration-blue-500/20">info@smkn3linggabuana.sch.id</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bagian Bawah: Credits -->
+<div class="mt-16 flex flex-col items-center gap-12">
+    <div class="flex flex-col items-center gap-6">
+        <!-- Powered By Astro -->
+        <div class="flex items-center gap-5 group cursor-default">
+            <span class="text-[10px] font-mono text-slate-400 uppercase tracking-[0.5em] opacity-60">Powered by</span>
+            <div class="flex items-center gap-3 px-4 py-2 bg-white/80 backdrop-blur-md border border-white shadow-sm transition-all group-hover:shadow-lg group-hover:-translate-y-1">
+                <svg width="20" height="20" viewBox="0 0 256 256" fill="none">
+                    <path d="M194.037 151.047L128.037 46.0469L62.0371 151.047" stroke="#FF5D01" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M149.037 186.047L128.037 222.047L107.037 186.047" stroke="#7B2BF9" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="text-[14px] font-black tracking-tighter text-slate-900 uppercase">Astro</span>
+            </div>
+        </div>
+        
+        <!-- Copyright & Developer Info -->
+        <div class="flex flex-col items-center gap-3 text-center">
+            <p class="text-[11px] font-mono text-slate-500 uppercase tracking-[0.6em] font-light">
+                © 2026 <span class="text-slate-800 font-bold">SMKN 3 Linggabuana Purwakarta</span>
+            </p>
+            <p class="text-[10px] font-mono text-slate-400 uppercase tracking-[0.4em]">
+                Developed by 
+                <a 
+                    href="https://schluster-dev.github.io/riki-schluster/" 
+                    target="_blank" 
+                    class="text-slate-900 font-black hover:text-blue-600 transition-colors underline underline-offset-4 decoration-slate-200 hover:decoration-blue-400"
+                >
+                    Ridho Kiswanto
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Indicator Line -->
+    <div class="flex items-center gap-4 opacity-30">
+        <div class="w-12 h-[1px] bg-slate-400"></div>
+        <span class="text-[9px] font-bold text-slate-500 uppercase tracking-[0.5em]">Purwakarta - West Java - Indonesia</span>
+        <div class="w-12 h-[1px] bg-slate-400"></div>
+    </div>
+</div>
+</footer>
+
+<script is:inline>
+    const canvas = document.getElementById('footer-canvas');
+    const reflect = document.getElementById('ice-reflect');
+
+    if (canvas && reflect) {
+        // Mengubah target dari document ke canvas agar aktif hanya saat hover
+        canvas.addEventListener('mousemove', (e) => {
+            const { clientX, clientY } = e;
+            const { left, top, width, height } = canvas.getBoundingClientRect();
+
+            const x = (clientX - left) / width - 0.5;
+            const y = (clientY - top) / height - 0.5;
+
+            // Efek Parallax Tilt
+            canvas.style.transform = `perspective(1000px) rotateX(${y * 2.5}deg) rotateY(${-x * 2.5}deg) translateY(${y * 12}px)`;
+            
+            // Efek Refleksi Cahaya
+            reflect.style.transform = `translate(${x * 60}%, ${y * 60}%)`;
+        });
+
+        // Reset posisi saat mouse keluar dari area canvas
+        canvas.addEventListener('mouseleave', () => {
+            canvas.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)`;
+            reflect.style.transform = `translate(0, 0)`; // Reset refleksi juga
+        });
+    }
+</script>

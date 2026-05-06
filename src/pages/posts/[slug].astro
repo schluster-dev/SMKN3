@@ -1,0 +1,92 @@
+---
+import '../../styles/global.css';
+
+export async function getStaticPaths() {
+  const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      query: `
+        query GetAllSlugs {
+          posts(first: 100) {
+            nodes {
+              slug
+            }
+          }
+        }
+      `,
+    }),
+  });
+  const { data } = await response.json();
+  return data.posts.nodes.map((post) => ({
+    params: { slug: post.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    query: `
+      query GetPostBySlug($id: ID!) {
+        post(id: $id, idType: SLUG) {
+          title
+          content
+          date
+          featuredImage {
+            node {
+              sourceUrl
+            }
+          }
+        }
+      }
+    `,
+    variables: { id: slug },
+  }),
+});
+
+const { data } = await response.json();
+const post = data.post;
+---
+
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{post.title} | SMKN 3 Linggabuana</title>
+</head>
+<body class="bg-[#f8fafc] p-6 md:p-20">
+    <div class="max-w-4xl mx-auto mt-20">
+        <a href="/" class="text-[10px] font-bold uppercase tracking-widest text-slate-400 hover:text-slate-800 transition-all mb-12 block">
+            ← Kembali ke Beranda
+        </a>
+
+        <article class="fade-in">
+            <header class="mb-12">
+                <span class="text-[10px] font-mono text-slate-400 uppercase tracking-[0.3em] mb-4 block">
+                    Arsip Digital • {new Date(post.date).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </span>
+                <h1 class="text-3xl md:text-5xl font-light text-slate-900 leading-tight tracking-tight uppercase">
+                    {post.title}
+                </h1>
+            </header>
+
+            {post.featuredImage && (
+                <div class="glass-card overflow-hidden mb-16 aspect-video">
+                    <img src={post.featuredImage.node.sourceUrl} class="w-full h-full object-cover" alt={post.title} />
+                </div>
+            )}
+
+            <div class="prose prose-slate prose-lg max-w-none text-slate-600 leading-relaxed font-light" set:html={post.content} />
+        </article>
+
+        <footer class="mt-32 pt-12 border-t border-slate-100 text-center">
+            <p class="text-[9px] text-slate-400 font-mono uppercase tracking-[0.3em]">
+                Diterbitkan oleh Sistem Digital SMKN 3 Linggabuana
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

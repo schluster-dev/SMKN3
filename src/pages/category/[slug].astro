@@ -1,0 +1,95 @@
+---
+export async function getStaticPaths() {
+  const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      query: `
+        query GetAllCategories {
+          categories(first: 100) {
+            nodes {
+              slug
+              name
+            }
+          }
+        }
+      `,
+    }),
+  });
+
+  const result = await response.json();
+  const categories = result?.data?.categories?.nodes || [];
+
+  // Mengembalikan daftar slug yang valid untuk dibuatkan halamannya
+  return categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { categoryName: cat.name },
+  }));
+}
+
+const { slug } = Astro.params;
+const { categoryName } = Astro.props;
+
+// Fetch artikel khusus untuk kategori ini
+const postsResponse = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    query: `
+      query GetPostsByCategory($slug: String!) {
+        posts(first: 50, where: { categoryName: $slug }) {
+          nodes {
+            title
+            slug
+            date
+            featuredImage {
+              node {
+                sourceUrl
+              }
+            }
+          }
+        }
+      }
+    `,
+    variables: { slug },
+  }),
+});
+
+const postsResult = await postsResponse.json();
+const posts = postsResult?.data?.posts?.nodes || [];
+---
+
+<!-- Layout Tampilan Halaman Kategori -->
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <title>{categoryName} | SMKN 3 Linggabuana</title>
+    </head>
+    <body class="p-10 bg-[#fafafa]">
+        <div class="max-w-7xl mx-auto">
+            <header class="mb-20 border-b border-slate-100 pb-10">
+                <a href="/" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-slate-900 transition-all">← Back to Portal</a>
+                <h1 class="text-4xl font-light tracking-[0.2em] uppercase text-slate-800 mt-6">
+                    Category: <span class="font-bold">{categoryName}</span>
+                </h1>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                {posts.map((post) => (
+                    <a href={`/posts/${post.slug}`} class="group">
+                        <div class="aspect-video glass-card overflow-hidden mb-4">
+                            {post.featuredImage ? (
+                                <img src={post.featuredImage.node.sourceUrl} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
+                            ) : (
+                                <div class="w-full h-full bg-slate-100 flex items-center justify-center text-[8px] text-slate-300 font-mono italic">NO_IMAGE</div>
+                            )}
+                        </div>
+                        <h3 class="text-sm font-medium text-slate-700 group-hover:text-blue-600 transition-all uppercase tracking-wide italic leading-relaxed">
+                            {post.title}
+                        </h3>
+                    </a>
+                ))}
+            </div>
+        </div>
+    </body>
+</html>

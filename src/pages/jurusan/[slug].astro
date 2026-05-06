@@ -1,0 +1,16 @@
+---
+export async function getStaticPaths() {
+  // Daftar slug jurusan sesuai data di SMKN 3 Linggabuana
+  const jurusans = [
+    { params: { slug: 'teknik-komputer-jaringan' }, props: { name: 'TKJ' } },
+    { params: { slug: 'teknik-mekanik-industri' }, props: { name: 'TMI' } },
+    // Tambahkan yang lain di sini
+  ];
+  return jurusans;
+}
+
+const { slug } = Astro.params;
+const { name } = Astro.props;
+---
+<h1>Halaman Jurusan: {name}</h1>
+<p>Ini adalah halaman untuk {slug}</p>

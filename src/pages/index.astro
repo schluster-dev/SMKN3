@@ -1,0 +1,133 @@
+---
+// src/pages/index.astro
+import '../styles/global.css';
+
+// Import Data Statis
+import { siteInfo, targetCategories, jurusan } from '../data/siteData.js';
+
+// Import Komponen
+import Navbar from '../components/Navbar.astro';
+import Header from '../components/Header.astro';
+import Slider from '../components/Slider.astro';
+import Sambutan from '../components/Sambutan.astro';
+import PostGrid from '../components/PostGrid.astro';
+import Footer from '../components/Footer.astro';
+
+// --- LOGIC FETCHING (Tetap di File Utama agar Data Fresh) ---
+const response = await fetch('https://smkn3linggabuana.sch.id/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    query: `
+      query GetWebsiteData {
+        posts(first: 100, where: { orderby: { field: DATE, order: DESC } }) {
+          nodes {
+            id
+            title
+            slug
+            date
+            featuredImage { node { sourceUrl } }
+            categories { nodes { name slug } }
+          }
+        }
+        categories(first: 20, where: { hideEmpty: true }) {
+          nodes {
+            name
+            slug
+            count
+          }
+        }
+      }
+    `,
+  }),
+});
+
+const result = await response.json();
+const allPosts = result?.data?.posts?.nodes || [];
+const allCategories = result?.data?.categories?.nodes || [];
+
+// Fungsi Filter Post per Kategori
+const getPostsByCategory = (slug) => {
+  return allPosts
+    .filter(post => post.categories.nodes.some(cat => cat.slug === slug))
+    .slice(0, 6);
+};
+---
+
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{siteInfo.title}</title>
+        
+        <!-- SEO Metadata -->
+        <meta name="description" content={siteInfo.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={siteInfo.title} />
+        <meta property="og:description" content={siteInfo.description} />
+        <meta property="og:image" content={siteInfo.logo} />
+        
+        <!-- Script Slider Utama -->
+        <script src="/js/main.js" is:inline></script>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body class="pt-0 p-6 md:p-20 bg-[#fafafa]">
+        
+        <!-- 1. Navigasi Utama -->
+        <Navbar />
+
+        <div class="max-w-7xl mx-auto fade-in mt-32">
+            
+            <!-- 2. Header & Branding -->
+            <Header />
+
+            <!-- 3. Slider Arsip Digital (Full Logic di main.js) -->
+            <Slider />
+
+            <!-- 4. Visi & Sambutan Kepala Sekolah -->
+            <Sambutan />
+
+            <!-- 5. Main Content: Grid Artikel per Kategori -->
+            <main class="space-y-32 py-20 px-6 lg:px-8">
+                {targetCategories.map((category) => (
+                    <PostGrid 
+                        categoryName={category.name} 
+                        categorySlug={category.slug} 
+                        posts={getPostsByCategory(category.slug)} 
+                    />
+                ))}
+            </main>
+
+            <!-- 6. Navigasi Cepat (Quick Nav) -->
+            <div class="mt-2 mb-2 pt-8 border-t border-slate-100 fade-in flex flex-col items-center">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl font-light tracking-[0.3em] uppercase text-slate-800 mb-2">Quick Navigation</h2>
+                    <div class="w-12 h-[1px] bg-slate-300 mx-auto mb-3"></div>
+                    <span class="text-[8px] font-mono text-slate-400 uppercase tracking-[0.5em]">SMKN3 Digital Resource — Filter Archive</span>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-4 max-w-4xl">
+                    {allCategories.map((cat) => (
+                        <a href={`/category/${cat.slug}`} 
+                           class="glass-card px-6 py-3 text-[9px] font-bold uppercase tracking-widest text-slate-500 border-slate-200/60 hover:text-blue-600 transition-all bg-white/50">
+                            {cat.name} <span class="ml-2 text-slate-400">({cat.count})</span>
+                        </a>
+                    ))}
+                </div>
+            </div>
+
+            <!-- 7. Footer Portal -->
+            <Footer />
+            
+        </div>
+
+        <!-- Script untuk Mobile Menu Toggle -->
+        <script is:inline>
+            document.getElementById('menu-toggle')?.addEventListener('click', () => {
+                alert('Fungsi menu mobile sedang dalam pengembangan.');
+            });
+        </script>
+    </body>
+</html>
