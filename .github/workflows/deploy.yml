@@ -15,5 +15,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install, build, and upload with Astro
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22 # Ini akan memaksa GitHub menggunakan Node versi 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and upload with Astro
         uses: withastro/action@v2
