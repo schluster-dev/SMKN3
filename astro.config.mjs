@@ -8,11 +8,11 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  // 1. Ganti site ke URL GitHub Pages Bapak
-  site: 'https://schluster-dev.github.io',
+  // 1. Ganti site ke URL domain sekolah di Domainesia
+  site: 'https://smkn3linggabuana.sch.id',
   
-  // 2. Tambahkan base sesuai nama repo GitHub Bapak (case-sensitive)
-  base: '/SMKN3', 
+  // 2. DIUBAH KE '/SMKN3/' karena Document Root cPanel mengarah ke folder SMKN3
+  base: '/SMKN3/', 
 
   integrations: [mdx(), sitemap()],
 

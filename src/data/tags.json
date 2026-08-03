@@ -1,0 +1,3346 @@
+[
+  {
+    "id": 505,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/aw/",
+    "name": "aw",
+    "slug": "aw",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/505",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=505"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 503,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/bakti-sosial/",
+    "name": "Bakti Sosial",
+    "slug": "bakti-sosial",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/503",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=503"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/bantuan/",
+    "name": "Bantuan",
+    "slug": "bantuan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/23",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/bbvp/",
+    "name": "BBVP",
+    "slug": "bbvp",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/156",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "count": 3,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/berita/",
+    "name": "Berita",
+    "slug": "berita",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/30",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "count": 4,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/bkk/",
+    "name": "BKK",
+    "slug": "bkk",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/47",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=47"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/blk/",
+    "name": "BLK",
+    "slug": "blk",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/154",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=154"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 493,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/byu/",
+    "name": "ByU",
+    "slug": "byu",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/493",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=493"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/disdik/",
+    "name": "Disdik",
+    "slug": "disdik",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/25",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=25"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 494,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/disiplin-guru/",
+    "name": "Disiplin guru",
+    "slug": "disiplin-guru",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/494",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=494"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/event/",
+    "name": "Event",
+    "slug": "event",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/31",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=31"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 485,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/event-seru/",
+    "name": "Event seru",
+    "slug": "event-seru",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/485",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=485"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 535,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/hari-guru/",
+    "name": "Hari Guru",
+    "slug": "hari-guru",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/535",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=535"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 532,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/hari-pahlawan/",
+    "name": "Hari Pahlawan",
+    "slug": "hari-pahlawan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/532",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=532"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/iht/",
+    "name": "IHT",
+    "slug": "iht",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/268",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=268"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/in-house-training/",
+    "name": "In House Training",
+    "slug": "in-house-training",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/269",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=269"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 491,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/isra-miraj/",
+    "name": "Isra Mi'raj",
+    "slug": "isra-miraj",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/491",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=491"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/jobstreet/",
+    "name": "Jobstreet",
+    "slug": "jobstreet",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/321",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=321"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 514,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/juara-umum-paskibra/",
+    "name": "Juara Umum Paskibra",
+    "slug": "juara-umum-paskibra",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/514",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=514"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 499,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/jumat-bersih/",
+    "name": "Jum'at Bersih",
+    "slug": "jumat-bersih",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/499",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=499"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/jurusan/",
+    "name": "Jurusan",
+    "slug": "jurusan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/479",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=479"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 480,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/jurusan-di-smkn3-linggabuana/",
+    "name": "Jurusan di SMKN3 Linggabuana",
+    "slug": "jurusan-di-smkn3-linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/480",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=480"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 495,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kcd-iv/",
+    "name": "KCD IV",
+    "slug": "kcd-iv",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/495",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=495"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 529,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kebekerjaan/",
+    "name": "Kebekerjaan",
+    "slug": "kebekerjaan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/529",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=529"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 520,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kegiatan-kebersihan/",
+    "name": "Kegiatan Kebersihan",
+    "slug": "kegiatan-kebersihan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/520",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=520"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 524,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kegiatan-osis/",
+    "name": "Kegiatan Osis",
+    "slug": "kegiatan-osis",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/524",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=524"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 512,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kelulusan-ppdb-2024/",
+    "name": "Kelulusan PPDB 2024",
+    "slug": "kelulusan-ppdb-2024",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/512",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=512"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kemnaker/",
+    "name": "Kemnaker",
+    "slug": "kemnaker",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/155",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=155"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 481,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kompetensi-keahlian-smkn3-linggabuana/",
+    "name": "Kompetensi Keahlian SMKN3 Linggabuana",
+    "slug": "kompetensi-keahlian-smkn3-linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/481",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=481"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/koperasi/",
+    "name": "Koperasi",
+    "slug": "koperasi",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/159",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=159"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 486,
+    "count": 7,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-dudi/",
+    "name": "Kunjungan DUDI",
+    "slug": "kunjungan-dudi",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/486",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=486"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 516,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-industri/",
+    "name": "Kunjungan Industri",
+    "slug": "kunjungan-industri",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/516",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=516"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 322,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-jobstreet/",
+    "name": "Kunjungan Jobstreet",
+    "slug": "kunjungan-jobstreet",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/322",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=322"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 490,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-kampus-unjani/",
+    "name": "Kunjungan Kampus Unjani",
+    "slug": "kunjungan-kampus-unjani",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/490",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=490"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 515,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-kerja/",
+    "name": "Kunjungan Kerja",
+    "slug": "kunjungan-kerja",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/515",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=515"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 492,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kunjungan-telkomsel/",
+    "name": "Kunjungan Telkomsel",
+    "slug": "kunjungan-telkomsel",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/492",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=492"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 270,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/kurikulum-merdeka/",
+    "name": "Kurikulum Merdeka",
+    "slug": "kurikulum-merdeka",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/270",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=270"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 510,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/lomba/",
+    "name": "Lomba",
+    "slug": "lomba",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/510",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=510"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "count": 3,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/lowongan-kerja/",
+    "name": "Lowongan Kerja",
+    "slug": "lowongan-kerja",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/46",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 501,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ngobras/",
+    "name": "ngobras",
+    "slug": "ngobras",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/501",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=501"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 530,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/osis/",
+    "name": "Osis",
+    "slug": "osis",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/530",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=530"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 522,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/p5/",
+    "name": "P5",
+    "slug": "p5",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/522",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=522"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 527,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/paskibra/",
+    "name": "Paskibra",
+    "slug": "paskibra",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/527",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=527"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 513,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/paskibra-smkn3-linggabuana/",
+    "name": "PASKIBRA SMKN3 LINGGABUANA",
+    "slug": "paskibra-smkn3-linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/513",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=513"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 531,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/pelantikan-osis/",
+    "name": "Pelantikan Osis",
+    "slug": "pelantikan-osis",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/531",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=531"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 487,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/polres-purwakarta/",
+    "name": "Polres Purwakarta",
+    "slug": "polres-purwakarta",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/487",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=487"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 507,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ppdb/",
+    "name": "PPDB",
+    "slug": "ppdb",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/507",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=507"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 511,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ppdb-2024/",
+    "name": "PPDB 2024",
+    "slug": "ppdb-2024",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/511",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=511"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 508,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ppdb-jabar/",
+    "name": "PPDB JABAR",
+    "slug": "ppdb-jabar",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/508",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=508"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 483,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/program-keahlian-smkn3-linggabuana/",
+    "name": "Program Keahlian SMKN3 Linggabuana",
+    "slug": "program-keahlian-smkn3-linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/483",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=483"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 153,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/program-pelatihan/",
+    "name": "Program pelatihan",
+    "slug": "program-pelatihan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/153",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=153"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 497,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/rapat-internal/",
+    "name": "Rapat Internal",
+    "slug": "rapat-internal",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/497",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=497"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 496,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/rapat-internl/",
+    "name": "Rapat Internl",
+    "slug": "rapat-internl",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/496",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=496"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 509,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/rapat-ppdb/",
+    "name": "Rapat PPDB",
+    "slug": "rapat-ppdb",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/509",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=509"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 498,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/senam/",
+    "name": "Senam",
+    "slug": "senam",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/498",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=498"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 489,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/serah-terima-jabatan/",
+    "name": "Serah Terima Jabatan",
+    "slug": "serah-terima-jabatan",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/489",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=489"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 500,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/smartren/",
+    "name": "SMARTREN",
+    "slug": "smartren",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/500",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=500"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "count": 35,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/smkn-3-linggabuana/",
+    "name": "SMKN 3 Linggabuana",
+    "slug": "smkn-3-linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/68",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=68"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 482,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/smkn3-linggabuana-purwakart/",
+    "name": "SMKN3 Linggabuana Purwakart",
+    "slug": "smkn3-linggabuana-purwakart",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/482",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=482"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 484,
+    "count": 22,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/smkn3-linggabuana-purwakarta/",
+    "name": "SMKN3 Linggabuana Purwakarta",
+    "slug": "smkn3-linggabuana-purwakarta",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/484",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=484"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 502,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/smkn3linggabuana/",
+    "name": "smkn3linggabuana",
+    "slug": "smkn3linggabuana",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/502",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=502"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 488,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/sosialiasi-polres-purwakarta/",
+    "name": "Sosialiasi Polres Purwakarta",
+    "slug": "sosialiasi-polres-purwakarta",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/488",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=488"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 528,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/sosialisasi-pusat-pengelolaan-pendapatan-daerah-wilayah-dibawah-bapenda-provinsi-jawa-barat-kapus-p3dw-wil-iv/",
+    "name": "Sosialisasi Pusat Pengelolaan Pendapatan Daerah Wilayah dibawah Bapenda Provinsi Jawa Barat KAPUS P3DW Wil IV",
+    "slug": "sosialisasi-pusat-pengelolaan-pendapatan-daerah-wilayah-dibawah-bapenda-provinsi-jawa-barat-kapus-p3dw-wil-iv",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/528",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=528"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 537,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/spmb/",
+    "name": "SPMB",
+    "slug": "spmb",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/537",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=537"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 538,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/spmb-2025/",
+    "name": "SPMB 2025",
+    "slug": "spmb-2025",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/538",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=538"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 523,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/suara-demokrasi/",
+    "name": "Suara Demokrasi",
+    "slug": "suara-demokrasi",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/523",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=523"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 526,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/sumpah-pemuda/",
+    "name": "Sumpah Pemuda",
+    "slug": "sumpah-pemuda",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/526",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=526"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 534,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/teaching-factory/",
+    "name": "Teaching Factory",
+    "slug": "teaching-factory",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/534",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=534"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 533,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/tefa/",
+    "name": "TEFA",
+    "slug": "tefa",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/533",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=533"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/uji-kompetensi-keahlian/",
+    "name": "Uji Kompetensi Keahlian",
+    "slug": "uji-kompetensi-keahlian",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/65",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=65"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ujikom/",
+    "name": "Ujikom",
+    "slug": "ujikom",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/66",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=66"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "count": 4,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/ukk/",
+    "name": "UKK",
+    "slug": "ukk",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/67",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=67"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 525,
+    "count": 2,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/upacara/",
+    "name": "Upacara",
+    "slug": "upacara",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/525",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=525"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 271,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/workshop-iht/",
+    "name": "Workshop IHT",
+    "slug": "workshop-iht",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/271",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=271"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 519,
+    "count": 1,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/zero-carbon/",
+    "name": "Zero Carbon",
+    "slug": "zero-carbon",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/519",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=519"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 518,
+    "count": 0,
+    "description": "",
+    "link": "https://smkn3linggabuana.sch.id/tag/zero-waste/",
+    "name": "Zero Waste",
+    "slug": "zero-waste",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags/518",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://smkn3linggabuana.sch.id/wp-json/wp/v2/posts?tags=518"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
